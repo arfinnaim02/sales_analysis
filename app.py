@@ -935,3 +935,10 @@ else:
     - 🔍 Filter by region, state, and date
     - 📥 Export filtered data
     """)
+# -------------------
+# FOOTER
+# -------------------
+st.markdown("""
+<h5 style='text-align:center; color:#9ca3af; margin-top: 50px;'>
+© 2025 Arfin Naim. All rights reserved. 
+""", unsafe_allow_html=True)
