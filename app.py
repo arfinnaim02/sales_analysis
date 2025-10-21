@@ -8,7 +8,13 @@ from io import BytesIO
 from PIL import Image
 import sys
 import traceback
+import plotly.io as pio
+import kaleido
 
+# Optional: set default export format and size
+pio.kaleido.scope.default_format = "png"
+pio.kaleido.scope.default_width = 800
+pio.kaleido.scope.default_height = 600
 # ---------------------------
 # Helper: safe fig -> PNG
 # ---------------------------
